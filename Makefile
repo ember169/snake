@@ -6,7 +6,7 @@
 #    By: lgervet <42@leogervet.com>                 +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/14 20:50:51 by lgervet           #+#    #+#              #
-#    Updated: 2025/11/14 21:18:39 by lgervet          ###   ########.fr        #
+#    Updated: 2025/11/14 21:28:52 by lgervet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,6 +16,7 @@ CFLAGS	:= -Wall -Wextra -Werror -g
 
 INC		:= includes
 SRCS	:= \
+	srcs/main.c \
 	srcs/render.c
 OBJS	:= $(SRCS:.c=.o)
 

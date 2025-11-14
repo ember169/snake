@@ -6,7 +6,7 @@
 /*   By: lgervet <42@leogervet.com>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 19:43:13 by lgervet           #+#    #+#             */
-/*   Updated: 2025/11/14 20:49:36 by lgervet          ###   ########.fr       */
+/*   Updated: 2025/11/14 21:29:21 by lgervet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,6 +22,7 @@ typedef struct s_game
 	char	cells;
 }	t_game;
 
+void	init_game(t_game *game, int width, int height);
 void	render(const t_game *game);
 
 #endif

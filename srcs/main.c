@@ -6,7 +6,7 @@
 /*   By: lgervet <42@leogervet.com>                 +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/11/14 19:57:55 by lgervet           #+#    #+#             */
-/*   Updated: 2025/11/14 21:14:42 by lgervet          ###   ########.fr       */
+/*   Updated: 2025/11/14 21:29:52 by lgervet          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@ int	main(void)
 {
 	t_game	*game;
 
+	game = NULL;
 	init_game(game, 30, 20);
 	render(game);
 }
