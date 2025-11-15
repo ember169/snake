@@ -6,13 +6,13 @@
 #    By: lgervet <42@leogervet.com>                 +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/11/14 20:50:51 by lgervet           #+#    #+#              #
-#    Updated: 2025/11/14 21:28:52 by lgervet          ###   ########.fr        #
+#    Updated: 2025/11/15 10:15:07 by lgervet          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME	:= snake
 CC		:= cc
-CFLAGS	:= -Wall -Wextra -Werror -g
+CFLAGS	:= -Wall -Wextra -Werror -g -g3
 
 INC		:= includes
 SRCS	:= \
