@@ -1,5 +1,5 @@
 ### Build outputs
-*.o
+srcs/*.o
 *.a
 *.so
 *.out
@@ -7,9 +7,7 @@
 *.gch
 *.lo
 *.la
-/libft
-/libft.a
-/libft.so
+
 
 ### Logs & temp files
 *.log
