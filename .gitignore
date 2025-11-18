@@ -1,0 +1,30 @@
+### Build outputs
+*.o
+*.a
+*.so
+*.out
+*.dSYM/
+*.gch
+*.lo
+*.la
+/libft
+/libft.a
+/libft.so
+
+### Logs & temp files
+*.log
+*.swp
+*.swo
+*.tmp
+
+### IDE / tooling noise
+.vscode/
+.idea/
+.DS_Store
+
+### Local playgrounds & archives
+.old/
+*.zip
+*.tar
+*.tgz
+*.gz
